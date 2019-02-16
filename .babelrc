@@ -1,0 +1,27 @@
+{
+	"presets": [
+		[
+			"@babel/env",
+			{
+				"targets": {
+					"node": "current"
+				},
+				"useBuiltIns": "entry"
+			}
+		]
+	],
+	"plugins": [
+		["@babel/plugin-transform-arrow-functions"],
+		["@babel/plugin-proposal-async-generator-functions"],
+		["transform-inline-environment-variables"],
+		["@babel/plugin-proposal-export-default-from"],
+		["@babel/plugin-external-helpers"],
+		["@babel/plugin-syntax-dynamic-import"],
+		["@babel/plugin-proposal-class-properties"],
+		["@babel/plugin-transform-object-super"],
+		["babel-plugin-minify-builtins"],
+		["babel-plugin-syntax-async-functions"],
+		["@babel/transform-runtime"],
+		["@babel/plugin-proposal-object-rest-spread"]
+	]
+}

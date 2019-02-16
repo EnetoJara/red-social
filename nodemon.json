@@ -1,0 +1,5 @@
+{
+	"verbose": false,
+	"watch": ["./src"],
+	"exec": "webpack --mode=development --config=config/webpack.config.server.js && node --inspect ./dist/main-bundle.js"
+}
